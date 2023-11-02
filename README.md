@@ -36,7 +36,7 @@ Follow these steps to set up and run the application:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/BryanNah/backend-stage-two-task
+   git clone https://github.com/BryanNah/banking-application
 
 2. Navigate to the project directory:
    ```sh
@@ -65,7 +65,8 @@ The application will be accessible at http://localhost:8000.
 
 ## API Endpoints
 
+- Create Account: POST /api/accounts
 - Check Balance: GET /api/account/{accountId}/balance
-- Deposit Funds: POST /api/account/{accountId}/deposit
-- Withdraw Funds: POST /api/account/{accountId}/withdraw
-- Get Account Information: GET /api/account/{accountId}
+- Deposit Funds: POST /api/accounts/{accountId}/deposit
+- Withdraw Funds: POST /api/accounts/{accountId}/withdraw
+- Get Account Information: GET /api/accounts/{accountId}
